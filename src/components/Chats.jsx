@@ -2,7 +2,7 @@ import React from 'react'
 import { useHistory } from 'react-router-dom'
 import { ChatEngine } from 'react-chat-engine'
 import { auth } from '../firebase'
-import { useAuth } from '../contexs/AuthContext'
+
 const Chats = () =>
 {
     const history = useHistory()
